@@ -54,7 +54,8 @@ Q-Learning is a model-free reinforcement learning algorithm used to learn the op
    - Choose an action randomly and move to the next state.
    - Update the Q-value using the Q-learning update rule:
      
-     \[ Q(s, a) \leftarrow Q(s, a) + \alpha (r + \gamma \max Q(s', a') - Q(s, a)) \]
+     ![Q learnng update rule](https://github.com/user-attachments/assets/c5515a29-69f9-441a-8608-6d0d98839366)
+
    
    - Repeat until the goal state is reached.
 3. Print the learned Q-values after training.
