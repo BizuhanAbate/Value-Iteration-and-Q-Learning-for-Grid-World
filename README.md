@@ -69,10 +69,6 @@ Q-Learning is a model-free reinforcement learning algorithm used to learn the op
 2. Install dependencies:
     - Python 3
     - NumPy
-   You can install NumPy using:
-   ```bash
-pip install numpy
-```
 3. Run the experiment:
  ```bash
 python Value_Iteration_Gridworld_Algorithm.py
