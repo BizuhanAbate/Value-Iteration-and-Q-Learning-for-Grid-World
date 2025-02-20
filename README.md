@@ -61,26 +61,26 @@ Q-Learning is a model-free reinforcement learning algorithm used to learn the op
 3. Print the learned Q-values after training.
 
 ## Running the Code
-To run the implementations, execute the Python script:
-```bash
-python Value Iteration Gridworld Algorithm.py
-python Basic Q-learning Gridworld  Algorithm.py
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/BizuhanAbate/Value-Iteration-and-Q-Learning-for-Grid-World.git
+   cd Value-Iteration-and-Q-Learning-for-Grid-World
+   ```
+2. Install dependencies:
+    - Python 3
+    - NumPy
+   You can install NumPy using:
+   ```bash
+pip install numpy
 ```
-
+3. Run the experiment:
+ ```bash
+python Value_Iteration_Gridworld_Algorithm.py
+python Basic_Q_learning_Gridworld_Algorithm.py
+```
 ## Expected Output
 - The optimal policy computed via Value Iteration.
 - The Q-values learned through Q-Learning.
-
-## Dependencies
-Ensure you have the following installed:
-- Python 3
-- NumPy
-
-You can install NumPy using:
-```bash
-pip install numpy
-```
-
 ## Conclusion
 This project demonstrates how Value Iteration and Q-Learning solve an MDP in a Grid World environment. 
 Value Iteration provides an optimal policy using dynamic programming, while Q-Learning enables an agent to learn the best actions through reinforcement learning.
